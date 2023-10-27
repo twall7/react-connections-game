@@ -13,6 +13,11 @@ module.exports = {
     },
     extend: {
       colors: {
+        greay: {
+          '50': '#efefe6',
+          '100': '#5a594e',
+          '150': '#d1d0b6',
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -71,7 +76,7 @@ module.exports = {
       },
     },
     fontFamily: {
-      "space-mono": ["Space Mono"],
+      "Inter var": ["Inter var"],
     },
   },
   plugins: [require("tailwindcss-animate")],

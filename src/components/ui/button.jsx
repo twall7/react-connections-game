@@ -17,7 +17,7 @@ const buttonVariants = cva(
         outline:
           "border border-input bg-background hover:bg-accent hover:text-accent-foreground",
         secondary:
-          "bg-secondary text-secondary-foreground hover:bg-secondary/80",
+          "rounded-full border-black border text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
         share: "border-solid bg-fuchsia-400	basis-1/2 hover:bg-fuchsia-400/80",
@@ -28,6 +28,7 @@ const buttonVariants = cva(
         lg: "h-11 rounded-md px-8",
         deselectallsize: "h-10 py-2",
         icon: "h-10 w-10",
+        good: " py-4 ",
       },
     },
     defaultVariants: {
